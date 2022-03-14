@@ -39,7 +39,7 @@ function Tabledata({deleteupdate,onsaveddata}) {
     return (
     <div>
         {
-            value == "" ? <h1>hi</h1>
+            value == "" ? <h1>No Data to Display</h1>
             :  <table>
             <thead>
                 <tr>
